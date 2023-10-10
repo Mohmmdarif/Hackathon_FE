@@ -1,0 +1,24 @@
+.text-color {
+  color: #b0f88e;
+}
+
+.bg-img {
+  background-image: url("../assets/img/SectionOne.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(200px);
+  height: 100vh;
+}
+
+.text-50 {
+  font-size: 50px;
+}
+
+.bg-color {
+  background-color: #b0f88e;
+}
+
+.set-bottom {
+  bottom: -28em;
+  box-shadow: #000 0px 0px 200px 0px;
+}
