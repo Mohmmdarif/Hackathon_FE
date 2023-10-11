@@ -1,8 +1,28 @@
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("../../Gotham-Font/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../../Gotham-Font/GothamMedium.ttf");
+}
+
+.gotham-book {
+  font-family: "Gotham-Book";
+}
+
+.gotham-medium {
+  font-family: "Gotham-Medium";
+}
+
 .text-color {
   color: #b0f88e;
 }
 
 .bg-img {
+  max-width: 100%;
+  max-height: 100%;
   background-image: url("../assets/img/SectionOne.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +38,33 @@
   background-color: #b0f88e;
 }
 
-.set-bottom {
-  bottom: -28em;
-  box-shadow: #000 0px 0px 200px 0px;
+.box-shadow {
+  box-shadow: 8px 8px 5px -1px #000;
+}
+
+.btn-hover:hover {
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: #fff !important;
+}
+
+.container-end {
+  height: 65%;
+}
+
+.hover-shadow-lg {
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.underlined-none {
+  text-decoration: none;
+  color: #000;
+}
+
+.mvh-100 {
+  min-height: 100vh;
+}
+.mvh-90 {
+  min-height: 90vh;
 }

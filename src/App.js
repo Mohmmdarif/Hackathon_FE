@@ -1,13 +1,17 @@
 import React from "react";
 import "./App.css";
 import NavHeader from "./components/NavHeader";
-import SectionOne from "./components/SectionOne";
+// import Home from "./container/Home";
+import UseCase from "./container/UseCase";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <NavHeader />
-      <SectionOne />
+      {/* <Home /> */}
+      <UseCase />
+      <Footer />
     </div>
   );
 }
