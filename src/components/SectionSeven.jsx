@@ -5,7 +5,7 @@ import { Button, Col, Form, Row, Card } from "react-bootstrap";
 const SectionSeven = () => {
   return (
     <div className="container-fluid gotham-book">
-      <div className="container">
+      <div className="container" id="formCustomer">
         <Card className="p-5 shadow-sm">
           <Card.Title className="fw-semibold fs-1 text-center gotham-medium">
             Book a Room Now
@@ -20,7 +20,7 @@ const SectionSeven = () => {
           <Form className="pt-2">
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridName">
-                <Form.Label>First Name</Form.Label>
+                <Form.Label>Full Name</Form.Label>
                 <Form.Control type="text" placeholder="Name" />
               </Form.Group>
 
@@ -36,8 +36,8 @@ const SectionSeven = () => {
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridWhatsappNumber">
-                <Form.Label>Company Name</Form.Label>
-                <Form.Control type="tel" placeholder="Company" />
+                <Form.Label>Company</Form.Label>
+                <Form.Control type="tel" placeholder="Company Name" />
               </Form.Group>
             </Row>
             <Row className="mb-3">

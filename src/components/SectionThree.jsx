@@ -1,11 +1,13 @@
 import React from "react";
 import "../custom_style/custom.css";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import { Tab, Tabs } from "react-bootstrap";
 import SectionThreeimg from "../assets/img/SectionThree.png";
 import SectionThreeimg2 from "../assets/img/SectionThree_1.png";
+import { useNavigate } from "react-router-dom";
 
 const SectionThree = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container my-5 gotham-book">
       <Tabs
@@ -40,7 +42,9 @@ const SectionThree = () => {
                   className="bg-color border-0 fw-semibold p-2 w-50 box-shadow gotham-medium"
                   type="submit"
                 >
-                  Book Now
+                  <a href="#formCustomer" className="underlined-none">
+                    Book Now
+                  </a>
                 </button>
               </div>
             </div>
@@ -71,6 +75,7 @@ const SectionThree = () => {
                 <button
                   className="bg-color border-0 fw-semibold p-2 w-50 box-shadow gotham-medium"
                   type="submit"
+                  onClick={() => navigate("/partnership")}
                 >
                   Start Now
                 </button>

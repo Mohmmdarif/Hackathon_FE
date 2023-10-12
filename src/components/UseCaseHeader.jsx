@@ -1,7 +1,6 @@
 import React from "react";
 import "../custom_style/custom.css";
-import Breadcrumb from "react-bootstrap/Breadcrumb";
-import { Col, Form, Row } from "react-bootstrap";
+import { Col, Form, Row, Breadcrumb } from "react-bootstrap";
 
 const UseCaseHeader = () => {
   return (
@@ -11,10 +10,10 @@ const UseCaseHeader = () => {
           <h1 className="gotham-medium fw-bold">Use Case</h1>
         </div>
         <Breadcrumb>
-          <Breadcrumb.Item href="#/" className="underlined-none">
+          <Breadcrumb.Item href="/" className="underlined-none">
             Home
           </Breadcrumb.Item>
-          <Breadcrumb.Item active>Data</Breadcrumb.Item>
+          <Breadcrumb.Item active>UseCase</Breadcrumb.Item>
         </Breadcrumb>
         <Form className="pt-2">
           <Row className="mb-3">

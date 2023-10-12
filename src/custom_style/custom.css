@@ -68,3 +68,18 @@
 .mvh-90 {
   min-height: 90vh;
 }
+
+.bg-transparent:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}

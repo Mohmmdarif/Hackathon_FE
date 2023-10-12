@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import UseCaseHeader from "../components/UseCaseHeader";
-import UseCaseCard from "../components/UseCaseCard";
+import HeaderBlog from "../components/Blog-comp/HeaderBlog";
 import NavHeader from "../components/NavHeader";
 import Footer from "../components/Footer";
+import ContentBlog from "../components/Blog-comp/ContentBlog";
 
-class UseCase extends Component {
+class Blog extends Component {
   render() {
     return (
       <>
         <NavHeader />
-        <UseCaseHeader />
-        <UseCaseCard />
+        <HeaderBlog />
+        <ContentBlog />
         <Footer />
       </>
     );
   }
 }
 
-export default UseCase;
+export default Blog;

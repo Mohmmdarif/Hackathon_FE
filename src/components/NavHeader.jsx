@@ -11,7 +11,7 @@ const NavHeader = () => {
       className="bg-body-tertiary sticky-top gotham-book"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={LogoWorkFrom} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,10 +27,10 @@ const NavHeader = () => {
               Location Menu 1
               
               */}
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/usecase">
                 <strong className="gotham-medium">Jakarta</strong>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1.1" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 The 101 space (Setiabudi)
               </NavDropdown.Item>
               {/* 
@@ -41,16 +41,16 @@ const NavHeader = () => {
               <NavDropdown.Item href="#action/3.2">
                 <strong className="gotham-medium">Medan</strong>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2.1" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Clapham (Medan Timur)
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2.2" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Yafuni (Medan Baru)
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2.3" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Kalingga (Medan Petisah)
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2.4" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Spasi (Medan Maimun)
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -62,23 +62,26 @@ const NavHeader = () => {
               id="collapsible-nav-dropdown"
               className="gotham-medium me-3"
             >
-              <NavDropdown.Item href="#action/3.1" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Event
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Meeting
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Photoshoot
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4" className="gotham-book">
+              <NavDropdown.Item href="/usecase" className="gotham-book">
                 Videoshoot
               </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
 
-            <Nav.Link href="#deets" className="gotham-medium">
+            <Nav.Link href="/blog" className="gotham-medium me-3">
               BLOG
+            </Nav.Link>
+            <Nav.Link href="/partnership" className="gotham-medium">
+              PARTNERSHIP
             </Nav.Link>
           </Nav>
           <Nav className="fw-semibold">
