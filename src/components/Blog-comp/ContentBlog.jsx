@@ -4,6 +4,7 @@ import { Breadcrumb } from "react-bootstrap";
 import CardBlog from "./CardBlog";
 import imgBlog1 from "../../assets/img/blog1.jpg";
 import imgBlog2 from "../../assets/img/blog2.jpg";
+import Pagination from "react-bootstrap/Pagination";
 
 const ContentBlog = () => {
   return (
@@ -70,6 +71,17 @@ const ContentBlog = () => {
               </div>
             </div>
           </div>
+          <Pagination className="d-flex justify-content-center mt-4">
+            <Pagination.First />
+            <Pagination.Prev />
+            <Pagination.Item>{1}</Pagination.Item>
+            <Pagination.Item>{2}</Pagination.Item>
+            <Pagination.Ellipsis />
+
+            <Pagination.Item>{5}</Pagination.Item>
+            <Pagination.Next />
+            <Pagination.Last />
+          </Pagination>
         </div>
       </div>
     </>

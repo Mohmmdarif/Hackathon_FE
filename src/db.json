@@ -1,0 +1,29 @@
+{
+  "mitra": [
+    {
+      "id": 1,
+      "mitra_name": "101 Space",
+      "location": "Jakarta"
+    },
+    {
+      "id": 2,
+      "mitra_name": "Clapham",
+      "location": "Medan"
+    },
+    {
+      "id": 3,
+      "mitra_name": "Yafurni",
+      "location": "Medan"
+    },
+    {
+      "id": 4,
+      "mitra_name": "Kalingga",
+      "location": "Medan"
+    },
+    {
+      "id": 5,
+      "mitra_name": "Spasi",
+      "location": "Medan"
+    }
+  ]
+}

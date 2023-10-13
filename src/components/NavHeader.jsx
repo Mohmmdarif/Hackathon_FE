@@ -12,7 +12,11 @@ const NavHeader = () => {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={LogoWorkFrom} alt="Logo" />
+          <img
+            src={LogoWorkFrom}
+            alt="Logo"
+            className="d-flex align-items-center"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -17,7 +17,7 @@ const SectionSix = () => {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <Card style={{ height: "500px" }} className="hover-shadow-lg">
+            <Card style={{ height: "600px" }} className="hover-shadow-lg">
               <Card.Img variant="top" src={Office1} className="h-50" />
               <Card.Body>
                 <Card.Title className="fw-semibold">The 101</Card.Title>
@@ -42,7 +42,7 @@ const SectionSix = () => {
             </Card>
           </div>
           <div className="col-md-4">
-            <Card style={{ height: "500px" }} className="hover-shadow-lg">
+            <Card style={{ height: "600px" }} className="hover-shadow-lg">
               <Card.Img variant="top" src={Office2} className="h-50" />
               <Card.Body>
                 <Card.Title className="fw-semibold">Clapham</Card.Title>
@@ -67,7 +67,7 @@ const SectionSix = () => {
             </Card>
           </div>
           <div className="col-md-4">
-            <Card style={{ height: "500px" }} className="hover-shadow-lg">
+            <Card style={{ height: "600px" }} className="hover-shadow-lg">
               <Card.Img variant="top" src={Office3} className="h-50" />
               <Card.Body>
                 <Card.Title className="fw-semibold">Spasi</Card.Title>

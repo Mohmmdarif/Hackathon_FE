@@ -83,3 +83,7 @@
   flex-wrap: wrap;
   align-items: stretch;
 }
+
+.nav-pills li a:hover {
+  background-color: #b0f88e;
+}

@@ -9,6 +9,8 @@ import Partnership from "./container/Partnership";
 import BlogUtama from "../src/components/Blog-comp/BlogUtama";
 
 import AdminDasboard from "./container/AdminDasboard";
+import Login from "./components/User-comp/Login";
+import Register from "./components/User-comp/Register";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/blog-utama" Component={BlogUtama} />
 
         <Route path="/admin-dashboard" Component={AdminDasboard} />
+        <Route path="/login" Component={Login} />
+        <Route path="/register" Component={Register} />
       </Routes>
     </Router>
   );
