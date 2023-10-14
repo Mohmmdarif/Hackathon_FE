@@ -25,7 +25,9 @@ const Content1 = () => {
               </div>
               <div className="mt-3">
                 <button className="bg-transparent text-black w-25 p-2 fw-semibold">
-                  Start Now
+                  <a href="#formCollaboration" className="underlined-none">
+                    Start Now
+                  </a>
                 </button>
               </div>
             </div>

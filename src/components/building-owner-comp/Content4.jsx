@@ -7,7 +7,7 @@ const Content4 = () => {
   return (
     <>
       <div className="container-fluid gotham-book">
-        <div className="container">
+        <div className="container" id="formCollaboration">
           <Card className="p-5 shadow-sm">
             <Card.Title className="fw-semibold fs-1 text-center gotham-medium">
               Let's talk about <span className="text-color">Collaboration</span>

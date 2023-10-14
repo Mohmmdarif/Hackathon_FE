@@ -35,7 +35,9 @@ const SectionSix = () => {
                     Kec. Medan Maimun, 20212
                   </Card.Text>
                   <Button className="w-100 bg-transparent border-1 text-black rounded-0 border-black">
-                    See Detail
+                    <a href="/usecase" className="underlined-none">
+                      See Detail
+                    </a>
                   </Button>
                 </div>
               </Card.Body>
@@ -60,7 +62,9 @@ const SectionSix = () => {
                     2nd Floor, Gang Buntu, Medan Timur, 20231
                   </Card.Text>
                   <Button className="w-100 bg-transparent border-1 text-black rounded-0 border-black">
-                    See Detail
+                    <a href="/usecase" className="underlined-none">
+                      See Detail
+                    </a>
                   </Button>
                 </div>
               </Card.Body>
@@ -85,7 +89,9 @@ const SectionSix = () => {
                     Kec. Medan Maimun, 20212
                   </Card.Text>
                   <Button className="w-100 bg-transparent border-1 text-black rounded-0 border-black">
-                    See Detail
+                    <a href="/usecase" className="underlined-none">
+                      See Detail
+                    </a>
                   </Button>
                 </div>
               </Card.Body>

@@ -8,6 +8,7 @@ import LogoPartnership from "../../assets/img/mdi_partnership-outline.png";
 import LogoOperation from "../../assets/img/carbon_operations-record.png";
 import LogoLogout from "../../assets/img/Logout.png";
 import NavAdmin from "./NavAdmin";
+import { Link } from "react-router-dom";
 
 const SidebarMenu = () => {
   return (
@@ -15,15 +16,15 @@ const SidebarMenu = () => {
       <div className="row">
         <div className="bg-white col-auto col-md-2 min-vh-100 d-flex flex-column justify-content-start">
           <a
-            href="#/"
+            href="/admin-dashboard"
             className="text-decoration-none text-black d-flex align-items-center"
           >
             <img src={Logo} alt="logo" className="ms-1 my-4" />
           </a>
           <ul className="nav nav-pills flex-column gotham-medium mt-4">
             <li className="nav-item text-black fs-4">
-              <a
-                href="#/"
+              <Link
+                to="/dashboard"
                 className="nav nav-link text-black fs-6"
                 aria-current="page"
               >
@@ -31,11 +32,11 @@ const SidebarMenu = () => {
                   <img src={LogoDashboard} alt="dashboard-logo" />
                 </i>
                 <span className="ms-2">Dashboard</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item text-black fs-4">
               <a
-                href="#/"
+                href="/product"
                 className="nav nav-link text-black fs-6"
                 aria-current="page"
               >
@@ -47,7 +48,7 @@ const SidebarMenu = () => {
             </li>
             <li className="nav-item text-black fs-4">
               <a
-                href="#/"
+                href="/customer"
                 className="nav nav-link text-black fs-6"
                 aria-current="page"
               >
@@ -58,8 +59,8 @@ const SidebarMenu = () => {
               </a>
             </li>
             <li className="nav-item text-black fs-4">
-              <a
-                href="#/"
+              <Link
+                to="/partner"
                 className="nav nav-link text-black fs-6"
                 aria-current="page"
               >
@@ -67,11 +68,11 @@ const SidebarMenu = () => {
                   <img src={LogoPartnership} alt="partnership-logo" />
                 </i>
                 <span className="ms-2">Mitra</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item text-black fs-4">
               <a
-                href="#/"
+                href="/operation"
                 className="nav nav-link text-black fs-6"
                 aria-current="page"
               >

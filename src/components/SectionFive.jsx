@@ -27,7 +27,9 @@ const SectionFive = () => {
                       className="bg-color border-0 fw-semibold p-2 w-50 box-shadow mt-3"
                       type="submit"
                     >
-                      Book Now
+                      <a href="#formCustomer" className="underlined-none">
+                        Book Now
+                      </a>
                     </button>
                   </div>
                 </Accordion.Body>
@@ -44,7 +46,9 @@ const SectionFive = () => {
                       className="bg-color border-0 fw-semibold p-2 w-50 box-shadow mt-3"
                       type="submit"
                     >
-                      Book Now
+                      <a href="#formCustomer" className="underlined-none">
+                        Book Now
+                      </a>
                     </button>
                   </div>
                 </Accordion.Body>
@@ -61,7 +65,9 @@ const SectionFive = () => {
                       className="bg-color border-0 fw-semibold p-2 w-50 box-shadow mt-3"
                       type="submit"
                     >
-                      Book Now
+                      <a href="#formCustomer" className="underlined-none">
+                        Book Now
+                      </a>
                     </button>
                   </div>
                 </Accordion.Body>
@@ -78,7 +84,9 @@ const SectionFive = () => {
                       className="bg-color border-0 fw-semibold p-2 w-50 box-shadow mt-3"
                       type="submit"
                     >
-                      Book Now
+                      <a href="#formCustomer" className="underlined-none">
+                        Book Now
+                      </a>
                     </button>
                   </div>
                 </Accordion.Body>

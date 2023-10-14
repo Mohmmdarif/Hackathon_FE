@@ -72,7 +72,12 @@ const CardComp = (props) => {
           </div>
           <div className="button">
             <Button className="w-100 bg-transparent text-black border-black">
-              Contact Us
+              <a
+                href="https://api.whatsapp.com/send/?phone=086180510977&text&type=phone_number&app_absent=0"
+                className="underlined-none"
+              >
+                Contact Us
+              </a>
             </Button>
           </div>
         </Card.Body>

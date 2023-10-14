@@ -24,7 +24,9 @@ const SectionOne = () => {
               type="submit"
               className="text-black bg-color w-25 p-3 fw-bold border-0 box-shadow btn-hover gotham-medium"
             >
-              Book Now
+              <a href="#formCustomer" className="underlined-none">
+                Book Now
+              </a>
             </button>
           </div>
         </div>

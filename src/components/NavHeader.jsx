@@ -89,7 +89,11 @@ const NavHeader = () => {
             </Nav.Link>
           </Nav>
           <Nav className="fw-semibold">
-            <Nav.Link eventKey={2} href="#memes" className="gotham-medium">
+            <Nav.Link
+              eventKey={2}
+              href="https://api.whatsapp.com/send/?phone=086180510977&text&type=phone_number&app_absent=0"
+              className="gotham-medium"
+            >
               CONTACT US
             </Nav.Link>
           </Nav>
